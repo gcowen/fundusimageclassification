@@ -30,7 +30,7 @@ Confusion Matrix
 ## Visulization
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture1.png)
 
-A: Normal, B: Glaucoma, C:Pathological Myopia D:Maculopathy, F:Retinitis Pigmentosa
+A: Normal, B: Glaucoma, C: Pathological Myopia D: Maculopathy, F: Retinitis Pigmentosa
 ## Reproduction Guidance
 All experiments are performed on Google Colab (Many thanks to Google!!).
 ### Data 
