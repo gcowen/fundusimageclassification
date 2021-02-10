@@ -34,7 +34,7 @@ Confusion Matrix
 visualization using [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://ieeexplore.ieee.org/document/8237336)
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture1.png)
 
-A: Normal, B: Glaucoma, C: Pathological Myopia D: Maculopathy, F: Retinitis Pigmentosa
+A: Normal, B: Glaucoma, C: Pathological Myopia D: Maculopathy, F: Retinitis Pigmentosa.
 Mis-classified image are marked in red. The first is mis-classified as glaucoma, the second is misclassified as maculopathy.
 ## Reproduction Guidance
 All experiments are performed on Google Colab (Many thanks to Google!!).
