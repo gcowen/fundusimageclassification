@@ -12,7 +12,7 @@ Unfreeze the last two layers and fine-tune.
     Initial convolution layer, 
     17 reversed residual blocks,
     1 poinwised convolution layer.
-   Implemented  from [keras-tensorflow-applications] https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2. Pretrained on ImageNet.
+   Implemented  from [keras-tensorflow-applications](https://www.tensorflow.org/api_docs/python/tf/keras/applications/MobileNetV2). Pretrained on ImageNet.
 
 Global average layer
 
@@ -22,6 +22,7 @@ Prediction layer
 
 #### figure of structure
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Stucture2.jpg)
+[Tool](https://github.com/HarisIqbal88/PlotNeuralNet)
 
 ## Model Results
 Confusion Matrix
