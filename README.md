@@ -26,6 +26,7 @@ Prediction layer
 Confusion Matrix
 
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture2.png)
+
 0: Normal, 1: Glaucoma, 2: Pathological Myopia 3: Maculopathy, 4: Retinitis Pigmentosa
 ## Visulization
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture1.png)
