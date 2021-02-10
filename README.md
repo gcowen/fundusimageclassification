@@ -7,12 +7,8 @@ Prediction of different eye diseases is a multi-class problem. The data form is 
 MobileNetV2 feature extractor: 
 
     Initial convolution layer, 
-    
-    1 depthwise convolution layer, 
-    
-    1 pointwise convolution layer,
-    
-    16 reversed residual blocks. 
+    17 reversed residual blocks,
+    1 poinwised convolution layer.
    Implemented  from keras-tensorflow-applications. Pretrained on ImageNet.
 
 Global average layer
