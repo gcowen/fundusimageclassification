@@ -26,11 +26,12 @@ Prediction layer
 Confusion Matrix
 
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture2.png)
-
+0: Normal, 1: Glaucoma, 2: Pathological Myopia 3: Maculopathy, 4: Retinitis Pigmentosa
 ## Visulization
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture1.png)
 
 A: Normal, B: Glaucoma, C: Pathological Myopia D: Maculopathy, F: Retinitis Pigmentosa
+Mis-classified image are marked in red. The first is mis-classified as glaucoma, the second is misclassified as maculopathy.
 ## Reproduction Guidance
 All experiments are performed on Google Colab (Many thanks to Google!!).
 ### Data 
