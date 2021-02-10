@@ -57,3 +57,5 @@ Upload the nodebook or use the code to Colab then connect it to Google drive.
 Rerun the cells for results.
 
 *Note: the confusion matrix cell can be ran either before the fine-tune for after the fine-tune.*
+# Citations
+see paper
