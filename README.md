@@ -20,10 +20,31 @@ Global average layer
 Prediction layer
 
 ## Model Results
+![alt text](https://github.com/[gcowen]/[fundusimageclassification]/blob/[master]/image.jpg?raw=true)
 
 ## Visulization
 
 ## Reproduction Guidance
 All experiments are performed on Google Colab (Many thanks to Google!!).
-# Data (optional)
-We provide data in folder "Data". Download the Data 
+### Data 
+We provide data in folder "**Data**". Download the Data folder then upload the sub-folder "**HIGHMIDCHANCEGLAUMYOPIAmaculopathyRP**" to Google Drive.
+
+For customized data, please follow the structure of the data set folder, you may need to change the script for different number of class. 
+### Codes
+All the raw results are avillable in **Codes** folder.
+#### file discription
+`ModelAndResults.ipynb` the model in this project.
+
+`Fundus5Runs.ipynb` Comparision with other models.
+
+`binarys` Binary classifier for each disease.
+
+
+
+
+#### rerun the code
+Upload the nodebook or use the code to Colab then connect it to Google drive.
+
+Rerun the cells for results.
+
+*Note: the confusion matrix cell can be ran either before the fine-tune for after the fine-tune.*
