@@ -25,6 +25,7 @@ Confusion Matrix
 
 0: Normal, 1: Glaucoma, 2: Pathological Myopia 3: Maculopathy, 4: Retinitis Pigmentosa
 ## Visulization
+visualization using [Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://ieeexplore.ieee.org/document/8237336)
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture1.png)
 
 A: Normal, B: Glaucoma, C: Pathological Myopia D: Maculopathy, F: Retinitis Pigmentosa
