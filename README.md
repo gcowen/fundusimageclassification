@@ -19,11 +19,18 @@ Global average layer
 
 Prediction layer
 
+#### figure of structure
+![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Stucture2.jpg)
+
 ## Model Results
-![alt text](https://github.com/[gcowen]/[fundusimageclassification]/blob/[master]/image.jpg?raw=true)
+Confusion Matrix
+
+![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture2.png)
 
 ## Visulization
+![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Picture1.png)
 
+A: Normal, B: Glaucoma, C:Pathological Myopia D:Maculopathy, F:Retinitis Pigmentosa
 ## Reproduction Guidance
 All experiments are performed on Google Colab (Many thanks to Google!!).
 ### Data 
