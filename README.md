@@ -3,8 +3,11 @@ This repository contains the code and data of the paper for research.
 ## Project Summary
 Prediction of different eye diseases is a multi-class problem. The data form is the image of the retinal fundus. With transfer learning on a proper deep convolution network, we can predict from the small data set. This project is implemented by python on tensorflow framework.Check the paper for more details. This approach generates certainly satisfactory results, we present all the results, code, and reproduction guidance together here. 
 
-## Model Structure
-MobileNetV2 feature extractor: 
+## Main methods
+Freeze the convolution layers and train on the fundus image data set.
+Unfreeze the last two layers and fine-tune.
+### Structure
+[MobileNetV2](https://ieeexplore.ieee.org/document/8578572) feature extractor: 
 
     Initial convolution layer, 
     17 reversed residual blocks,
@@ -14,6 +17,8 @@ MobileNetV2 feature extractor:
 Global average layer
 
 Prediction layer
+
+
 
 #### figure of structure
 ![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Stucture2.jpg)
