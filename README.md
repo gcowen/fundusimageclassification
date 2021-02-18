@@ -1,7 +1,7 @@
-# Prediction of different eye diseases based on fundus photography via deep transfer learning --Rrepository
-This repository contains the code and data of the paper for research.
+# Prediction of different eye diseases based on fundus photography via deep transfer learning
+This repository contains the code and data used in the paper.
 ## Project Summary
-Prediction of different eye diseases is a multi-class problem. The data form is the image of the retinal fundus. With transfer learning on a proper deep convolution network, we can predict from the small data set. This project is implemented by python on tensorflow framework.Check the paper for more details. This approach generates certainly satisfactory results, we present all the results, code, and reproduction guidance together here. 
+We propose to utilize a lightweight deep learning architecture called MobileNetV2 and transfer learning to distinguish four common eye diseases including Glaucoma, Maculopathy, Pathological Myopia, and Retinitis Pigmentosa from normal controls using a small training data. The inputs to the algorithm are fundus images. This project was implemented using the tensorflow framework. We include code and data here for each reproduction of the results in the paper.  
 
 ## Main methods
 Freeze the convolution layers and train on the fundus image data set.
