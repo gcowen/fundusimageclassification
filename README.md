@@ -3,6 +3,34 @@ This repository contains the code and data used in the paper.
 ## Project Summary
 We propose to utilize a lightweight deep learning architecture called MobileNetV2 and transfer learning to distinguish four common eye diseases including Glaucoma, Maculopathy, Pathological Myopia, and Retinitis Pigmentosa from normal controls using a small training data. The inputs to the algorithm are fundus images. This project was implemented using the tensorflow framework. We include code and data here for each reproduction of the results in the paper.  
 
+## Reproduction Guidance
+All experiments are performed on Google Research Colab (Many thanks to Google!!).
+
+### Data 
+All data can be found in folder "**Dataset**". Download the Data folder then upload the sub-folder "**HIGHMIDCHANCEGLAUMYOPIAmaculopathyRP**" to Google Drive.
+
+For users own data, please follow the structure of the data set folder. You may need to change the script for different number of classes. 
+
+### Codes
+All implementation code, including intermediate and final results, can be found in **Codes** folder.
+
+#### file discription
+`ModelAndResults.ipynb` the model in this project.
+
+`Fundus5Runs.ipynb` Comparision with other models.
+
+`binarys` Binary classifier for each disease.
+
+
+
+
+#### rerun the code
+Upload the nodebook or use the code to Colab then connect it to Google drive.
+
+Rerun the cells for results.
+
+*Note: the confusion matrix cell can be ran either before the fine-tune for after the fine-tune.*
+
 ## Main methods
 Freeze the convolution layers and train on the fundus image data set.
 Unfreeze the last two layers and fine-tune.
@@ -36,29 +64,6 @@ visualization using [Grad-CAM: Visual Explanations from Deep Networks via Gradie
 
 A: Normal, B: Glaucoma, C: Pathological Myopia D: Maculopathy, F: Retinitis Pigmentosa.
 Mis-classified image are marked in red. The first is mis-classified as glaucoma, the second is misclassified as maculopathy.
-## Reproduction Guidance
-All experiments are performed on Google Colab (Many thanks to Google!!).
-### Data 
-We provide data in folder "**Data**". Download the Data folder then upload the sub-folder "**HIGHMIDCHANCEGLAUMYOPIAmaculopathyRP**" to Google Drive.
 
-For customized data, please follow the structure of the data set folder, you may need to change the script for different number of class. 
-### Codes
-All the raw results are avillable in **Codes** folder.
-#### file discription
-`ModelAndResults.ipynb` the model in this project.
-
-`Fundus5Runs.ipynb` Comparision with other models.
-
-`binarys` Binary classifier for each disease.
-
-
-
-
-#### rerun the code
-Upload the nodebook or use the code to Colab then connect it to Google drive.
-
-Rerun the cells for results.
-
-*Note: the confusion matrix cell can be ran either before the fine-tune for after the fine-tune.*
 # Citations
 see paper
