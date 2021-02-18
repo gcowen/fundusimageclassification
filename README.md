@@ -43,7 +43,7 @@ The model also contains one global average layer and the final prediction layer.
 
 
 #### figure of structure
-![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Stucture2.jpg)
+![image](https://github.com/gcowen/fundusimageclassification/blob/master/IMG/Structure2.jpg)
 [Tool](https://github.com/HarisIqbal88/PlotNeuralNet)
 
 ## Model Results
